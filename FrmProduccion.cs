@@ -39,7 +39,7 @@ namespace PryAriettiSP1
             {
                 string InformacionLCultivo = srCultivo.ReadLine();
 
-                lstCultivo.Items.Add(InformacionLCultivo.Substring(3));
+                lstCultivo.Items.Add(InformacionLCultivo.Substring(2));
             }
 
             srCultivo.Close();

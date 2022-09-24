@@ -70,7 +70,7 @@ namespace PryAriettiSP1
                 StreamWriter swGrabar = new StreamWriter("./Localidades.text", true);
 
                 //Se le asigna lo q se escribio en el txt al archivo.
-                swGrabar.WriteLine(txtIdentificacionLocalidad.Text + "," + txtLocalidad.Text);
+                swGrabar.WriteLine(txtIdentificacionLocalidad.Text + " " + txtLocalidad.Text);
 
                 swGrabar.Close();
 

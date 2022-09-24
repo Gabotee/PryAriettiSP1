@@ -53,10 +53,10 @@ namespace PryAriettiSP1
 
             if (BanderaCultivo == false)
             {
-                StreamWriter swGrabar = new StreamWriter("./Cultivos.text");
+                StreamWriter swGrabar = new StreamWriter("./Cultivos.text", true);
 
                 //Se le asigna lo q se escribio en el txt al archivo.
-                swGrabar.WriteLine(txtIdentificacionCultivo.Text + "," + txtCultivos.Text);
+                swGrabar.WriteLine(txtIdentificacionCultivo.Text + " " + txtCultivos.Text);
 
                 swGrabar.Close();
 
