@@ -65,28 +65,28 @@
             // localidadToolStripMenuItem
             // 
             this.localidadToolStripMenuItem.Name = "localidadToolStripMenuItem";
-            this.localidadToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.localidadToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.localidadToolStripMenuItem.Text = "Localidad";
             this.localidadToolStripMenuItem.Click += new System.EventHandler(this.localidadToolStripMenuItem_Click);
             // 
             // cultivoToolStripMenuItem
             // 
             this.cultivoToolStripMenuItem.Name = "cultivoToolStripMenuItem";
-            this.cultivoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cultivoToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.cultivoToolStripMenuItem.Text = "Cultivo";
             this.cultivoToolStripMenuItem.Click += new System.EventHandler(this.cultivoToolStripMenuItem_Click);
             // 
             // produccionToolStripMenuItem
             // 
             this.produccionToolStripMenuItem.Name = "produccionToolStripMenuItem";
-            this.produccionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.produccionToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.produccionToolStripMenuItem.Text = "Produccion";
             this.produccionToolStripMenuItem.Click += new System.EventHandler(this.produccionToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -95,6 +95,7 @@
             this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
             this.consultaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.consultaToolStripMenuItem.Text = "Consulta";
+            this.consultaToolStripMenuItem.Click += new System.EventHandler(this.consultaToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 

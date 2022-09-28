@@ -22,12 +22,15 @@ namespace PryAriettiSP1
         {
             StreamReader srLocalidad = new StreamReader("./Localidades.text");
 
+            char VarSeparador = Convert.ToChar(" ");
+
             while (!srLocalidad.EndOfStream)
             {
 
-                string InformacionLocalidad = srLocalidad.ReadLine();
+                //string InformacionLocalidad = srLocalidad.ReadLine();
+                string[] VecLocalidad = srLocalidad.ReadLine().Split(VarSeparador);
 
-                lstLocalidades.Items.Add(InformacionLocalidad.Substring(3));
+                lstLocalidades.Items.Add(VecLocalidad[0]);
 
             }
 
@@ -37,9 +40,10 @@ namespace PryAriettiSP1
 
             while (!srCultivo.EndOfStream)
             {
-                string InformacionLCultivo = srCultivo.ReadLine();
+                //string InformacionLCultivo = srCultivo.ReadLine();
+                string[] VecCultivo = srCultivo.ReadLine().Split(VarSeparador);
 
-                lstCultivo.Items.Add(InformacionLCultivo.Substring(2));
+                lstCultivo.Items.Add(VecCultivo[0]);
             }
 
             srCultivo.Close();
@@ -50,7 +54,7 @@ namespace PryAriettiSP1
         {
             StreamWriter srToneladas = new StreamWriter("./Produccion.text", true);
 
-            srToneladas.WriteLine(lstLocalidades.Text + "  " + lstCultivo.Text + "  " + txtToneladas.Text);
+            srToneladas.WriteLine(lstLocalidades.Text + " " + lstCultivo.Text + " " + txtToneladas.Text);
 
             MessageBox.Show("Se han Cargado los datos Correctamente");
 

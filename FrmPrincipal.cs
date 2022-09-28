@@ -45,5 +45,11 @@ namespace PryAriettiSP1
         {
 
         }
+
+        private void consultaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmConsulta VentanaConsulta = new FrmConsulta();
+            VentanaConsulta.ShowDialog();
+        }
     }
 }

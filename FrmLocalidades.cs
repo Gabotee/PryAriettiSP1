@@ -33,7 +33,7 @@ namespace PryAriettiSP1
 
             StreamReader srLocalidades = new StreamReader("./Localidades.text");
 
-            char VarSeparador = Convert.ToChar(",");
+            char VarSeparador = Convert.ToChar(" ");
 
             
 

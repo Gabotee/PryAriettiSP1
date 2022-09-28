@@ -34,7 +34,7 @@ namespace PryAriettiSP1
 
             StreamReader srCultivos = new StreamReader("./Cultivos.text");
 
-            char VarSeparador = Convert.ToChar(",");
+            char VarSeparador = Convert.ToChar(" ");
 
             while (!srCultivos.EndOfStream)
             {
